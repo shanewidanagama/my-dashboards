@@ -5,15 +5,13 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1>Useful Links</h1>
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>
-            https://www.mortgagesandbox.com/
+            <a href="https://www.mortgagesandbox.com/">mortgagesandbox.com</a>
           </li>
            {/* TODO */}
-          {/* Regularly download and help mortgage sandbox */}
+          {/* Regularly download and display data */}
         </ol>
 
         <div className={styles.ctas}>
