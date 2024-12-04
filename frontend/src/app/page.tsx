@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>Useful Links</h1>
+        <h1>Important Links</h1>
         <ol>
           <li>
             <a href="https://www.mortgagesandbox.com/">mortgagesandbox.com</a>
